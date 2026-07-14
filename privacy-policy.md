@@ -2,53 +2,112 @@
 layout: work
 ---
 
-<li>Privacy Policy</li>
-This privacy policy applies to the きろくん app (hereby referred to as "Application") for mobile devices that was created by (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+# プライバシーポリシー
 
-Information Collection and Use
-The Application collects information when you download and use it. This information may include information such as
+**制定日：2026年7月13日**
 
-Your device's Internet Protocol address (e.g. IP address)
-The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
-The time spent on the Application
-The operating system you use on your mobile device
+本プライバシーポリシーは、「きろくん」（以下、「本アプリ」といいます）における利用者情報の取扱いについて定めるものです。
 
-The Application does not gather precise information about the location of your mobile device.
+## 1. 取得する情報
 
-The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
+本アプリでは、サービス品質の向上や不具合の改善を目的として、以下の情報を取得する場合があります。
 
-For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+* アプリの利用日時
+* 利用した画面や機能
+* ボタンの操作履歴
+* アプリのバージョン
+* OSの種類・バージョン
+* 端末の種類
+* 匿名化された端末識別情報
+* クラッシュ（異常終了）に関する情報
+* 診断情報
 
-Third Party Access
-Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+これらの情報は、本アプリの品質改善および利便性向上のために利用します。
 
-The Service Provider may disclose User Provided and Automatically Collected Information:
+---
 
-as required by law, such as to comply with a subpoena, or similar legal process;
-when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
-with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
+## 2. 取得しない情報
 
-Opt-Out Rights
-You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+本アプリでは、ユーザーが入力した以下の情報を、利用状況の分析や品質改善の目的で収集・送信することはありません。
 
-Data Retention Policy
-The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at takyashiii@gmail.com and they will respond in a reasonable time.
+* メモの内容
+* タイトル
+* トレーニング記録
+* テンプレートの内容
+* コメント
+* その他ユーザーが入力した文字列や数値データ
 
-Children
-The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
+これらの情報は、利用者が共有機能等を利用しない限り、開発者が内容を閲覧・解析することはありません。
 
-The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider (takyashiii@gmail.com) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries we may allow your parent or guardian to do so on your behalf).
+---
 
-Security
-The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+## 3. 利用目的
 
-Changes
-This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+取得した情報は、以下の目的にのみ利用します。
 
-This privacy policy is effective as of 2025-03-20
+* アプリの品質改善
+* 利用状況の分析
+* 不具合の調査・修正
+* 新機能の改善・検討
+* セキュリティ対策および不正利用防止
 
-Your Consent
-By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
+取得した情報を広告配信や個人を特定する目的では利用しません。
 
-Contact Us
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at takyashiii@gmail.com.
+---
+
+## 4. 第三者サービスの利用
+
+本アプリでは、品質改善や障害解析のため、第三者が提供するサービスを利用する場合があります。
+
+これらのサービスでは、本プライバシーポリシーに記載した範囲で匿名化された利用情報を処理する場合があります。
+
+なお、ユーザーが入力したメモや記録内容は、分析目的で第三者へ送信されることはありません。
+
+---
+
+## 5. IPアドレス等について
+
+本アプリがサーバーや解析サービスと通信する際、IPアドレスなどの通信情報が自動的に処理される場合があります。
+
+これらは、サービスの提供、障害解析、不正アクセス対策およびセキュリティ向上のために利用されます。
+
+---
+
+## 6. 情報の保存期間
+
+取得した利用状況データは、サービス改善に必要な期間保存した後、適切な方法で削除または匿名化します。
+
+---
+
+## 7. お子様の利用について
+
+本アプリは、13歳未満の児童から意図的に個人情報を収集することを目的としていません。
+
+保護者の方が、お子様の個人情報が提供されたと判断された場合は、お問い合わせ先までご連絡ください。
+
+---
+
+## 8. 安全管理
+
+取得した情報については、不正アクセス、漏えい、改ざん等を防止するため、合理的な安全管理措置を講じます。
+
+ただし、インターネット通信や電子的保存方法において、完全な安全性を保証するものではありません。
+
+---
+
+## 9. プライバシーポリシーの変更
+
+本プライバシーポリシーは、必要に応じて改定することがあります。
+
+変更後の内容は、本ページに掲載した時点から効力を生じます。
+
+---
+
+## 10. お問い合わせ
+
+本プライバシーポリシーに関するお問い合わせは、以下までお願いいたします。
+
+メールアドレス
+
+**[takyashiii@gmail.com](mailto:takyashiii@gmail.com)**
+
