@@ -6,7 +6,10 @@ description: 筋トレ、学習、日々の習慣を数タップで記録。テ�
 baseurl: "/kirokun"
 url: "https://takyac.github.io"
 og_image: /assets/img/app-icon.jpg
-# google_analytics: "UA-121636368-3"
+
+# Aptabase App Key for this website (example: A-US-0000000000)
+# Leave empty to disable analytics.
+aptabase_app_key:
 
 header:
   pages:
