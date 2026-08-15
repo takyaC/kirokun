@@ -42,4 +42,4 @@ exclude:
   - vendor/ruby/
 
 # Used for defeating caching
-version: 2
+version: 3
