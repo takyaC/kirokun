@@ -11,31 +11,15 @@ og_image: /assets/img/app-icon.jpg
 # Leave empty to disable analytics.
 aptabase_app_key:
 
-header:
-  pages:
-    - name: ホーム
-      slug: /
-    - name: プライバシーポリシー
-      slug: /privacy-policy
-
-footer:
-  show_powered_by: false
-  contact:
-    - type: email
-      name: Google Form
-      link: https://forms.gle/Hmwoe6g7VwKe4Jkb7
 # Build settings
 markdown: kramdown
 sass:
   style: :compressed
-plugins:
-  - jekyll-feed
 
 # Excluded items
 exclude:
   - .sass-cache/
   - .jekyll-cache/
-  - feed.xml
   - gemfiles/
   - Gemfile
   - Gemfile.lock
@@ -45,4 +29,4 @@ exclude:
   - vendor/ruby/
 
 # Used for defeating caching
-version: 3
+version: 4

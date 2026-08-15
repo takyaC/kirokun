@@ -1,5 +1,6 @@
 ---
-layout: work
+layout: page
+title: プライバシーポリシー
 ---
 
 # プライバシーポリシー
@@ -111,6 +112,5 @@ layout: work
 
 本プライバシーポリシーに関するお問い合わせは、以下までお願いいたします。
 
-メールアドレス
-
-**[takyashiii@gmail.com](mailto:takyashiii@gmail.com)**
+* [X（@kirokun33）](https://x.com/kirokun33)
+* [お問い合わせフォーム](https://forms.gle/Hmwoe6g7VwKe4Jkb7)
