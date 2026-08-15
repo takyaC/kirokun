@@ -5,12 +5,13 @@
   <body class="landing-page">
     {% include landing-header.html %}
 
-    <main>
-      {{ content }}
+    <main class="legal-page">
+      <div class="landing-shell legal-page__inner">
+        {{ content }}
+      </div>
     </main>
 
     {% include landing-footer.html %}
-
     {% include foot.html %}
   </body>
 </html>
