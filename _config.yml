@@ -2,17 +2,17 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 title: きろくん
-description: きろくん のサポートページです
+description: 筋トレ、学習、日々の習慣を数タップで記録。テンプレートと振り返りで、続けることをやさしく支える活動記録アプリです。
 baseurl: "/kirokun"
 url: "https://takyac.github.io"
-og_image: /assets/img/profile-pic.jpg
+og_image: /assets/img/app-icon.jpg
 # google_analytics: "UA-121636368-3"
 
 header:
   pages:
-    - name: Home
+    - name: ホーム
       slug: /
-    - name: Privacy Policy
+    - name: プライバシーポリシー
       slug: /privacy-policy
 
 footer:
@@ -42,4 +42,4 @@ exclude:
   - vendor/ruby/
 
 # Used for defeating caching
-version: 1
+version: 2
