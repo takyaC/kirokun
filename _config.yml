@@ -9,7 +9,7 @@ og_image: /assets/img/app-icon.jpg
 
 # Aptabase App Key for this website (example: A-US-0000000000)
 # Leave empty to disable analytics.
-aptabase_app_key:
+aptabase_app_key: A-US-2068519043
 
 # Build settings
 markdown: kramdown
