@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  {% include head.html %}
+
+  <body class="landing-page">
+    <header class="landing-header">
+      <div class="landing-shell landing-header__inner">
+        <a class="landing-logo" href="{{ '/' | relative_url }}" aria-label="きろくん ホーム">
+          <img src="{{ '/assets/img/app-icon.jpg' | relative_url }}" alt="" width="42" height="42">
+          <span>きろくん</span>
+        </a>
+
+        <nav class="landing-nav" aria-label="メインナビゲーション">
+          <a href="#features">できること</a>
+          <a href="#screens">画面紹介</a>
+          <a href="https://forms.gle/Hmwoe6g7VwKe4Jkb7" target="_blank" rel="noopener noreferrer">お問い合わせ</a>
+        </nav>
+
+        <a class="landing-header__cta" href="https://apps.apple.com/jp/app/id6742073439" target="_blank" rel="noopener noreferrer">無料で始める</a>
+      </div>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="landing-footer">
+      <div class="landing-shell landing-footer__inner">
+        <a class="landing-logo landing-logo--footer" href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/img/app-icon.jpg' | relative_url }}" alt="" width="36" height="36">
+          <span>きろくん</span>
+        </a>
+        <p>続けたいことを、迷わず記録。</p>
+        <nav aria-label="フッターナビゲーション">
+          <a href="https://apps.apple.com/jp/app/id6742073439" target="_blank" rel="noopener noreferrer">App Store</a>
+          <a href="{{ '/privacy-policy' | relative_url }}">プライバシーポリシー</a>
+          <a href="https://forms.gle/Hmwoe6g7VwKe4Jkb7" target="_blank" rel="noopener noreferrer">お問い合わせ</a>
+        </nav>
+        <small>&copy; {{ 'now' | date: '%Y' }} きろくん</small>
+      </div>
+    </footer>
+
+    {% include foot.html %}
+  </body>
+</html>
