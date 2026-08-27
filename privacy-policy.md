@@ -1,7 +1,17 @@
 ---
 layout: page
+lang: ja
 title: プライバシーポリシー
+description: 活動記録アプリ「きろくん」と紹介ウェブサイトのプライバシーポリシーです。
+alternate_ja: /privacy-policy
+alternate_en: /en/privacy-policy/
 ---
+
+<nav class="legal-page__language-switch" aria-label="言語切り替え">
+  <span aria-current="page">日本語</span>
+  <span aria-hidden="true">/</span>
+  <a href="{{ '/en/privacy-policy/' | relative_url }}" lang="en">English</a>
+</nav>
 
 # プライバシーポリシー
 

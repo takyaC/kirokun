@@ -73,6 +73,25 @@ $orange: #ff9c4a;
 .legal-page__inner {
   max-width: 800px;
 
+  .legal-page__language-switch {
+    display: flex;
+    margin-bottom: 24px;
+    align-items: center;
+    gap: 12px;
+    color: $muted;
+    font-size: 14px;
+
+    a {
+      color: $blue-700;
+      font-weight: 700;
+    }
+
+    [aria-current="page"] {
+      color: $ink;
+      font-weight: 700;
+    }
+  }
+
   h1 {
     margin-bottom: 32px;
     font-size: clamp(32px, 5vw, 48px);
