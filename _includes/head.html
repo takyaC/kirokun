@@ -3,10 +3,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
+  {% assign page_site_title = page.site_title | default: site.title %}
+
   {% if page.title %}
-    {% assign page_title = site.title | append: " | " | append: page.title %}
+    {% assign page_title = page_site_title | append: " | " | append: page.title %}
   {% else %}
-    {% assign page_title = site.title %}
+    {% assign page_title = page_site_title %}
   {% endif %}
 
   {% assign page_description = page.description | default: site.description %}
@@ -20,7 +22,7 @@
   <meta name="description" content="{{ page_description }}"/>
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:site_name" content="{{ site.title }}"/>
+  <meta property="og:site_name" content="{{ page_site_title }}"/>
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="{{ page_url }}"/>
   <meta property="og:title" content="{{ page_title }}"/>
@@ -37,6 +39,12 @@
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}?v={{ site.version }}"/>
   <link rel="canonical" href="{{ page_url }}"/>
+  {% if page.alternate_ja %}
+    <link rel="alternate" hreflang="ja" href="{{ page.alternate_ja | absolute_url }}"/>
+  {% endif %}
+  {% if page.alternate_en %}
+    <link rel="alternate" hreflang="en" href="{{ page.alternate_en | absolute_url }}"/>
+  {% endif %}
   <link rel="shortcut icon" href="{{ "/favicon.ico" | relative_url }}?v={{ site.version }}" type="image/x-icon"/>
 
 </head>
