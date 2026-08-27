@@ -2,15 +2,15 @@
   <div class="landing-shell landing-footer__inner">
     <a class="landing-logo landing-logo--footer" href="{{ '/' | relative_url }}">
       <img src="{{ '/assets/img/app-icon.jpg' | relative_url }}" alt="" width="36" height="36">
-      <span>きろくん</span>
+      <span>{% if page.lang == 'en' %}Kirokun{% else %}きろくん{% endif %}</span>
     </a>
-    <p>続けたいことを、迷わず記録。</p>
-    <nav aria-label="フッターナビゲーション">
-      <a href="https://apps.apple.com/jp/app/id6742073439" target="_blank" rel="noopener noreferrer" data-analytics-event="app_store_click" data-analytics-location="footer">App Store</a>
-      <a href="{{ '/privacy-policy' | relative_url }}">プライバシーポリシー</a>
+    <p>{% if page.lang == 'en' %}Track what matters, without the friction.{% else %}続けたいことを、迷わず記録。{% endif %}</p>
+    <nav aria-label="{% if page.lang == 'en' %}Footer navigation{% else %}フッターナビゲーション{% endif %}">
+      <a href="{% if page.lang == 'en' %}https://apps.apple.com/app/id6742073439{% else %}https://apps.apple.com/jp/app/id6742073439{% endif %}" target="_blank" rel="noopener noreferrer" data-analytics-event="app_store_click" data-analytics-location="footer">App Store</a>
+      <a href="{% if page.lang == 'en' %}{{ '/en/privacy-policy/' | relative_url }}{% else %}{{ '/privacy-policy' | relative_url }}{% endif %}">{% if page.lang == 'en' %}Privacy Policy{% else %}プライバシーポリシー{% endif %}</a>
       <a href="https://x.com/kirokun33" target="_blank" rel="noopener noreferrer">X（@kirokun33）</a>
-      <a href="https://forms.gle/Hmwoe6g7VwKe4Jkb7" target="_blank" rel="noopener noreferrer">お問い合わせフォーム</a>
+      <a href="https://forms.gle/Hmwoe6g7VwKe4Jkb7" target="_blank" rel="noopener noreferrer">{% if page.lang == 'en' %}Contact form{% else %}お問い合わせフォーム{% endif %}</a>
     </nav>
-    <small>&copy; {{ 'now' | date: '%Y' }} きろくん</small>
+    <small>&copy; {{ 'now' | date: '%Y' }} {% if page.lang == 'en' %}Kirokun{% else %}きろくん{% endif %}</small>
   </div>
 </footer>
