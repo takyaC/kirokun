@@ -1,14 +1,15 @@
 <header class="landing-header">
   <div class="landing-shell landing-header__inner">
-    <a class="landing-logo" href="{{ '/' | relative_url }}" aria-label="{% if page.lang == 'en' %}Kirokun home{% else %}きろくん ホーム{% endif %}">
+    <a class="landing-logo" href="{% if page.lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" aria-label="{% if page.lang == 'en' %}Kirokun home{% else %}きろくん ホーム{% endif %}">
       <img src="{{ '/assets/img/app-icon.jpg' | relative_url }}" alt="" width="42" height="42">
       <span>{% if page.lang == 'en' %}Kirokun{% else %}きろくん{% endif %}</span>
     </a>
 
     <nav class="landing-nav" aria-label="{% if page.lang == 'en' %}Main navigation{% else %}メインナビゲーション{% endif %}">
-      <a href="{{ '/#features' | relative_url }}">{% if page.lang == 'en' %}Features{% else %}できること{% endif %}</a>
-      <a href="{{ '/#screens' | relative_url }}">{% if page.lang == 'en' %}Screens{% else %}画面紹介{% endif %}</a>
+      <a href="{% if page.lang == 'en' %}{{ '/en/#features' | relative_url }}{% else %}{{ '/#features' | relative_url }}{% endif %}">{% if page.lang == 'en' %}Features{% else %}できること{% endif %}</a>
+      <a href="{% if page.lang == 'en' %}{{ '/en/#screens' | relative_url }}{% else %}{{ '/#screens' | relative_url }}{% endif %}">{% if page.lang == 'en' %}Screens{% else %}画面紹介{% endif %}</a>
       <a href="https://forms.gle/Hmwoe6g7VwKe4Jkb7" target="_blank" rel="noopener noreferrer">{% if page.lang == 'en' %}Contact{% else %}お問い合わせ{% endif %}</a>
+      <a href="{% if page.lang == 'en' %}{{ '/' | relative_url }}{% else %}{{ '/en/' | relative_url }}{% endif %}" lang="{% if page.lang == 'en' %}ja{% else %}en{% endif %}">{% if page.lang == 'en' %}日本語{% else %}English{% endif %}</a>
     </nav>
 
     <a class="landing-header__cta" href="{% if page.lang == 'en' %}https://apps.apple.com/app/id6742073439{% else %}https://apps.apple.com/jp/app/id6742073439{% endif %}" target="_blank" rel="noopener noreferrer" data-analytics-event="app_store_click" data-analytics-location="header">{% if page.lang == 'en' %}Get the app{% else %}無料で始める{% endif %}</a>
