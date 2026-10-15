@@ -18,6 +18,7 @@ sass:
 
 # Excluded items
 exclude:
+  - AGENTS.md
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
