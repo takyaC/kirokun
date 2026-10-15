@@ -93,9 +93,15 @@ Network information such as IP addresses may be processed when the App or Websit
 
 ---
 
-## 6. Stopping Usage Analytics
+## 6. Consent and Stopping Usage Analytics
+
+In versions with consent prompts, the App explains the recipients, purpose and scope on the first launch in an eligible distribution environment. Aptabase and GA4 usage collection starts only after you choose “Allow.” No usage data is sent while you have not answered or if you choose “Don’t allow.” Recording features remain available if you decline.
+
+An automatically enabled setting from an earlier version is not treated as consent to this explanation; collection remains stopped until you decide. An existing off setting is preserved without asking again.
 
 In supported versions, turn off “Allow usage analytics” under Settings → App Info to stop new Aptabase and GA4 usage collection from that device. Saving and viewing records remain available. If you turn it on again, collection conditions are checked on the next launch.
+
+The information icon in Settings opens the explanation without changing permission. Turning collection on in Settings also presents the explanation and asks for consent.
 
 Turning collection off does not delete data already sent or guarantee cancellation of transmissions already in progress. Crashlytics operates independently for diagnostics and is not stopped by this setting. The setting also does not affect Website analytics.
 
