@@ -101,7 +101,7 @@ An automatically enabled setting from an earlier version is not treated as conse
 
 In supported versions, turn off “Allow usage analytics” under Settings → App Info to stop new Aptabase and GA4 usage collection from that device. Saving and viewing records remain available. If you turn it on again, collection conditions are checked on the next launch.
 
-The information icon in Settings opens the explanation without changing permission. Turning collection on in Settings also presents the explanation and asks for consent.
+“Learn more” in Settings opens the explanation without changing permission. Turning collection on in Settings also presents the explanation and asks for consent.
 
 Turning collection off does not delete data already sent or guarantee cancellation of transmissions already in progress. Crashlytics operates independently for diagnostics and is not stopped by this setting. The setting also does not affect Website analytics.
 
